@@ -1,0 +1,93 @@
+body{
+    background-color: #b3cccc;
+    text-align: center;
+    font-family: "American Typewriter";
+    color: white;
+    font-style: italic;
+}
+h1{
+    font-family: "American Typewriter";
+    text-align: center;
+    text-shadow: 0 1.5px #999;
+    font-style: italic;
+}
+h1:hover{
+    text-shadow: none;
+}
+button{
+    background-color: white;
+    border: 2px solid gray;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.19);
+    border-radius: 6px;
+    padding: 15px 20px;
+    width: 200px;
+    height: 60px;
+    font-style: italic;
+    transition: all 0.5s linear;
+}
+button:hover, button:focus, button:active{
+    box-shadow: none;
+    background-color: transparent;
+    border: 2px solid white;
+    transform: scale(1.05);
+}
+select {
+    background-color: white;
+    border: 2px solid gray;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    width: 200px;
+    height: 60px;
+    font-style: italic;
+    transition: all 0.5s linear;
+}
+select:hover, select:focus, select:active{
+    box-shadow: none;
+    background-color: transparent;
+    border: 2px solid white;
+    transform: scale(1.05);
+}
+table,tr,td {
+    border: 2px solid gray;
+}
+table{
+    width: 100%;
+}
+.audio{
+    border: 2px solid gray;
+    transition: all 0.5s linear;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px 7px 7px 7px;
+ }
+.audio:hover, .audio:focus, .audio:active{
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+td{
+    font-size: large;
+}
+.link{
+    transition: all 0.5s linear;
+    border-radius: 7px 7px 7px 7px;
+    text-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+.link:hover, .link:focus, .link:active{
+    transform: scale(1.05);
+    text-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+}
+.pics{
+    transition: all 0.5s linear;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.pics:hover, .pics:focus, .pics:active{
+    transform: scale(1.5);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+}
+section{
+    font-size: large;
+}
+.notItalics{
+    font-style: normal;
+}
